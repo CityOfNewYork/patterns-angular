@@ -1,6 +1,6 @@
 # Patterns Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1. It is a companion to the [generic installation guide for **NYCO Patterns Library**](https://nycopatterns.cityofnewyork.us/installation).
 
 # Angular + NYCO Patterns integration
 
@@ -63,11 +63,11 @@ node_modules/@nycopportunity/patterns/src
 node_modules/animate.scss
 ```
 
-* The font and svg assets only need to migrated into the project if using the NYCO Pattern's [fonts](https://github.com/IBM/plex) and/or [icons](https://nycopatterns.cityofnewyork.us/icons). You may also include fonts and SVGs via [Google Fonts Embed](https://fonts.google.com/specimen/IBM+Plex+Sans) (fonts only) or the [CDN method of integration](https://nycopatterns.cityofnewyork.us/installation#heading-cdn).
+* The font and svg assets only need to migrated into the project if using the NYCO Pattern's [fonts](https://github.com/IBM/plex) and/or [icons](https://nycopatterns.cityofnewyork.us/icons). You may also include fonts via [Google Fonts Embed](https://fonts.google.com/specimen/IBM+Plex+Sans) or SVGs and fonts the [CDN method of integration](https://nycopatterns.cityofnewyork.us/installation#heading-cdn).
 
-* Icons require the provided [Patterns Icon Script](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/icons) ([or a similar method](https://css-tricks.com/ajaxing-svg-sprite/)) to add them to the DOM. The CDN path to the distributed icons can be passed to the method as opposed to hosting them with the project.
+* Icons require the provided [Patterns Icon Script](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/icons) ([or a similar method](https://css-tricks.com/ajaxing-svg-sprite/)) to inline the SVG sprite in the DOM. See the [Icon Usage documentation](https://nycopatterns.cityofnewyork.us/icons#heading-icon-usage) for more details. The CDN path to the distributed icons can be passed to the method as opposed to hosting them with the project (if desired).
 
-* The NYCO Patterns rely on the Feather icon set which can be integrated with the entire svg sprite installed with the library under the directory **./node_modules/@nycopportunity/patterns/dist/svg/feather.svg** using the [Patterns Icon Script](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/icons) mentioned above or separately with the [Angular Feather](https://github.com/michaelbazos/angular-feather) package.
+* The NYCO Patterns rely on the Feather icon set which can be integrated with the entire svg sprite installed with the library under the directory **./node_modules/@nycopportunity/patterns/dist/svg/feather.svg** using the [Patterns Icon Script](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/icons) mentioned above or separately with the [Angular Feather](https://github.com/michaelbazos/angular-feather) package. See the [Feather Icon documentation](https://nycopatterns.cityofnewyork.us/icons#heading-icons-ui) for more details.
 
 **Happy Coding!**
 
